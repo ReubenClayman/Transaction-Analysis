@@ -1,4 +1,4 @@
-# Customer Transaction Analysis
+# Transaction Analysis
 
 This project contains SQL queries to analyze customer transaction and spending data, focusing on business insights such as customer segmentation, spending patterns, and product preferences.
 
