@@ -12,8 +12,8 @@ The dataset consists of three tables:
 ## SQL Queries
 
 ### 1. Join Customers and Transactions
-- **Purpose**: To view customer transaction data, such as the amount spent and date of transaction.
-- **Insight**: Provides raw transaction data for each customer.
+Purpose: To view customer transaction data, such as the amount spent and date of transaction.
+Insight: Provides raw transaction data for each customer.
 
 ```sql
 SELECT c.customer_id, c.customer_name, t.transaction_id, t.transaction_date, t.amount_spent
