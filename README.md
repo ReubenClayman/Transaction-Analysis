@@ -1,6 +1,6 @@
 # Transaction Analysis
 
-This project contains SQL queries to analyze customer transaction and spending data, focusing on business insights such as customer segmentation, spending patterns, and product preferences.
+This project contains SQL queries to analyse customer transaction and spending data, focusing on business insights such as customer segmentation, spending patterns, and product preferences.
 
 ## Project Overview
 
@@ -22,7 +22,7 @@ JOIN transactions t ON c.customer_id = t.customer_id;
 ```
 
 2. Join Customers, Transactions, and Products
-Purpose: To analyze which products are purchased by which customers.
+Purpose: To analyse which products are purchased by which customers.
 Insight: Helps identify customer preferences and product popularity.
 
 ```sql
@@ -76,7 +76,7 @@ ORDER BY c.customer_id, t.transaction_date;
 ```
 
 6. Monthly Spending Trends
-Purpose: To analyze monthly spending trends for each customer.
+Purpose: To analyse monthly spending trends for each customer.
 Insight: Helps identify seasonal trends and spending behaviors.
 
 ```sql
